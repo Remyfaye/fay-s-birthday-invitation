@@ -18,27 +18,7 @@ export default function EnvelopeAnimation({
     <div className="flex flex-col justify-center items-center p-6">
       <div className="relative lg:w-[90vh] lg:h-[60vh] w-80 h-72">
         {/* Envelope Body */}
-        <div className="absolute inset-0 bg-[#0a0a0a] border-2 border-[#c8a34b] rounded-md shadow-lg">
-          {/* ⭐ GOLDEN SEAL (NEW) */}
-          <div
-            className="
-              absolute 
-              left-1/2 top-1/2 
-              -translate-x-1/2 -translate-y-1/2 
-              w-16 h-16 
-              bg-[#c8a34b]
-              rounded-full 
-              flex items-center justify-center 
-              text-black 
-              font-semibold 
-              text-lg
-              shadow-[0_0_20px_rgba(200,163,75,0.6)]
-              border-2 border-[#f1d28a]
-            "
-          >
-            fay
-          </div>
-        </div>
+        <div className="absolute inset-0 bg-[#0a0a0a] border-2 border-[#c8a34b] rounded-md shadow-lg"></div>
 
         {/* Envelope Flap */}
         <div
